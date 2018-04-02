@@ -8,7 +8,7 @@ This is paint canvas built. There's a canvas with where you can set its width an
 ## How to Play
 Run index.html at your local broswer.Use your mouse to paint tha canvas.
 
-## How I built the Memory Game
+## How I built the Pixel Art Maker
 I worked on a static template given by Udacity.I used jQuery programming features.
 * created canva width and height.
 * created the functions to paint while hove the mouse.
