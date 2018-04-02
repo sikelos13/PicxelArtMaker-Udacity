@@ -1,33 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Pixel Art Maker!</title>
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Pixel Art Maker!</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
+  <h1>Lab: Pixel Art Maker</h1>
   <div id="layout">
     <h2>Choose Grid Size</h2>
-    <h4>Max <b>Height</b> and <b>Width</b> cap: 100px</h4>
+    <h4>Max <b>Height</b> and <b>Width</b> cap: 64px</h4>
     <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="input_height" name="height" min="10" max="100" value="10">
-        Grid Width:
-        <input type="number" id="input_width" name="width" min="10" max="100" value="10">
-        <input type="submit">
+      Grid Height:
+      <input type="number" id="input_height" name="height" min="10" max="64" value="10" required> Grid Width:
+      <input type="number" id="input_width" name="width" min="10" max="64" value="10" required>
+      <input type="submit" value="Make Grid">
+      <input type="button" class="toggleCell" value="Remove Grid">
     </form>
 
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
 
     <h2>Design Canvas</h2>
-    <p>Hold <strong>LEFT Click</strong> to Draw and <strong>Right Click</strong> to erase.</p>
+    <p><strong>Hold LEFT Click</strong> to Draw and <strong>Hold Right Click</strong> to erase.</p>
   </div>
-    <table id="pixel_canvas"></table>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="designs.js"></script>
+  <table id="pixel_canvas"></table>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="designs.js"></script>
 </body>
+
 </html>
