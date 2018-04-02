@@ -1,16 +1,18 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+This is a simple Pixel Art Maker built for the purpose of Udacity Nanodegree Program.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Getting Started
+This is paint canvas built. There's a canvas with where you can set its width and height.Then you simple paint the canvas with color of choice.
 
-## Instructions
+## How to Play
+Run index.html at your local broswer.Use your mouse to paint tha canvas.
 
-To get started, open `designs.js` and start building out the app's functionality.
+## How I built the Memory Game
+I worked on a static template given by Udacity.I used jQuery programming features.
+* created canva width and height.
+* created the functions to paint while hove the mouse.
+* created a reset button to clear the canvas.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## License
+Copyright © 2018, Stefanos Athanasoulias.Released under Udacity License.
